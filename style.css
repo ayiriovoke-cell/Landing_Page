@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size:19px;
+    background-color:#000;
+    color:white;
+}
+
+.header{
+    background-color:#1F2937;
+    padding-bottom:160px;
+    padding-top:20px;
+    padding-left:250px;
+    padding-right:250px;
+    flex-grow:1;
+}
+
+.head{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:100px;
+}
+
+.links{
+    display:flex;
+    gap:2rem;
+}
+.describe{
+    display:flex;
+    justify-content:space-between;
+}
+.crypto{
+    height:270px;
+    width:500px;
+}
+.text{
+    width:400px;
+    margin-right:20px;
+}
+.heading{
+    width:190px;
+    font-size:30px;
+}
+button{
+    background-color:#3882F6;
+    width:120px;
+    height:40px;
+    border-radius:7px;
+    border:1px solid white;
+    font-size:20px;
+    color:white;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+.learn{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.logo{
+    font-size:30px;
+    font-weight:900;
+    color:black;
+}
