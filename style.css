@@ -6,16 +6,18 @@
 body{
     font-family: "Roboto", sans-serif;
     font-size:19px;
-    background-color:#000;
+    background-color:black;
     color:white;
+    width:1200PX;
+    margin:auto;
 }
 
 .header{
     background-color:#1F2937;
     padding-bottom:160px;
     padding-top:20px;
-    padding-left:250px;
-    padding-right:250px;
+    padding-left:100px;
+    padding-right:100px;
     flex-grow:1;
 }
 
@@ -36,14 +38,17 @@ body{
 .crypto{
     height:270px;
     width:500px;
+    border-radius:4px;
 }
 .text{
     width:400px;
     margin-right:20px;
 }
 .heading{
-    width:190px;
-    font-size:30px;
+    width:240px;
+    flex-shrink:1;
+    font-size:35px;
+    font-weight:700;
 }
 button{
     background-color:#3882F6;
@@ -67,4 +72,34 @@ a{
     font-size:30px;
     font-weight:900;
     color:black;
+}
+.information{
+    padding-right:100px;
+    padding-left:200px;
+    padding-bottom:200px;
+    padding-top:20px;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+    background-color:white
+}
+.some{
+    width:800px
+}
+.topic{
+    text-align:center;
+    margin-bottom:90px;
+    color:black
+}
+.images{
+    display:flex;
+    gap:1rem
+}
+.card{
+    height:180px;
+    width:200px;
+}
+.bit{
+    height:180px;
+    width:200px
 }
