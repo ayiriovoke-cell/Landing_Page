@@ -11,7 +11,15 @@ body{
     width:1200PX;
     margin:auto;
 }
-
+.lag{
+    display:flex;
+    gap:0.5rem
+}
+.log{
+    height:50px;
+    width:55px;
+    border-radius:50vh
+}
 .header{
     background-color:#1F2937;
     padding-bottom:160px;
@@ -55,7 +63,7 @@ button{
     width:120px;
     height:40px;
     border-radius:7px;
-    border:1px solid white;
+    border:1px solid #1F2937;
     font-size:20px;
     color:white;
 }
@@ -88,7 +96,7 @@ a{
 }
 .topic{
     text-align:center;
-    margin-bottom:90px;
+    margin-bottom:40px;
     color:black
 }
 .images{
@@ -98,8 +106,19 @@ a{
 .card{
     height:180px;
     width:200px;
+    border-radius:7px;
+    border:2px solid blue
 }
-.bit{
-    height:180px;
-    width:200px
+.explain{
+    display:flex;
+    gap:1.2rem;
+}
+p{
+    margin-top:5px;
+    height:90px;
+    width:200px;
+    color:black;
+}
+p a{
+    color:blue;
 }
