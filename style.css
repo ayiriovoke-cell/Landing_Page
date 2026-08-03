@@ -6,7 +6,7 @@
 body{
     font-family: "Roboto", sans-serif;
     font-size:19px;
-    background-color:black;
+    background-color:WHITE;
     color:white;
     width:1200PX;
     margin:auto;
@@ -38,6 +38,9 @@ body{
 .links{
     display:flex;
     gap:2rem;
+}
+.links a:hover{
+    color:red;
 }
 .describe{
     display:flex;
@@ -81,6 +84,10 @@ a{
     font-weight:900;
     color:black;
 }
+
+
+
+
 .information{
     padding-right:100px;
     padding-left:200px;
@@ -88,7 +95,7 @@ a{
     padding-top:20px;
     justify-content:center;
     align-items:center;
-    height:200px;
+    height:270px;
     background-color:white
 }
 .some{
@@ -121,4 +128,19 @@ p{
 }
 p a{
     color:blue;
+}
+
+
+
+.quote{
+    background-color:#E5E7EB;
+    height:300px;
+    paddding-top:
+}
+.comment{
+    background-color:blue;
+    height:100px;
+    width:500px;
+    margin:auto;
+    font-size:25px;
 }
