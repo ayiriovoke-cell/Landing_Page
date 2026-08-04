@@ -10,6 +10,7 @@ body{
     color:white;
     width:1200PX;
     margin:auto;
+    box-sizing:border-box;
 }
 .lag{
     display:flex;
@@ -162,4 +163,44 @@ p a{
     margin-left:800px;
     font-size:22px;
     font-weight:700;
+}
+
+
+
+.action{
+    height:250px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+}
+.box{
+    background-color:#3882F6;
+    width:780px;
+    padding:40px;
+    padding-right:100px;
+    padding-left:100px;
+    border-radius:6px;
+    display:flex;
+    justify-content:space-between;
+}
+.join{
+    border:2px solid white
+}
+.copy{
+    color:white;
+    /* background-color:pink; */
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+footer{
+    /* height:100px; */
+    padding-top:;
+    /* background-color:blue; */
+    display:flex;
+    justify-content:center;
+    padding-bottom:10px;
+    align-items:center;
 }
